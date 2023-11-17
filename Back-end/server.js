@@ -21,3 +21,9 @@ const db = mysql.createConnection({
 })
 
 
+//Running the server
+app.listen(8081, () => {
+    console.log("Running the server ")
+})
+
+
